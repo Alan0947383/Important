@@ -131,7 +131,6 @@ for i,v in pairs(Pixels) do
 end end
 }
 
-local numRandom = math.random(1, #options)
+local randomNum = math.random(1, #options)
 
-
-options[numRandom]()
+options[randomNum]()
